@@ -10,3 +10,7 @@ Our group is aiming to implement a 'Who Wants to Be a Millionaire?'-like game.
 
 - Java 17
 - JavaFX 17
+
+### Internal tools
+
+- [bono](https://github.com/gojoGS/bono)
