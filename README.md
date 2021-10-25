@@ -13,4 +13,5 @@ Our group is aiming to implement a 'Who Wants to Be a Millionaire?'-like game.
 
 ### Internal tools
 
-- [bono](https://github.com/gojoGS/bono)
+- [bono](https://github.com/gojoGS/bono) - `build.gradle` generation
+- [lly](https://github.com/gojoGS/lly) - XML generation from CSV
