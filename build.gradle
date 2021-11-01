@@ -1,0 +1,44 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.10'
+    id 'io.freefair.lombok' version '6.2.0'
+//    id "org.sonarqube" version "3.3"
+}
+
+repositories {
+    mavenCentral()
+}
+
+group 'org.szfm'
+version '1.0-SNAPSHOT'
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+
+    implementation 'jakarta.xml.bind:jakarta.xml.bind-api:3.0.1'
+    implementation 'org.glassfish.jaxb:jaxb-runtime:3.0.2-b01'
+
+    implementation 'org.tinylog:tinylog-api:2.3.2'
+    implementation 'org.tinylog:tinylog-impl:2.3.2'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+test {
+    useJUnitPlatform()
+}
+
+javafx {
+    modules = [ 'javafx.controls', 'javafx.fxml']
+    version = '17'
+}
+
+application {
+    mainClass = 'app.App'
+}
