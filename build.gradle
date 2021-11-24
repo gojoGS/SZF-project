@@ -3,6 +3,8 @@ plugins {
     id 'application'
     id 'org.openjfx.javafxplugin' version '0.0.10'
     id 'io.freefair.lombok' version '6.2.0'
+    id 'checkstyle'
+    id "org.sonarqube" version "3.3"
 }
 
 repositories {
@@ -27,6 +29,18 @@ dependencies {
 
     implementation 'com.squareup.okhttp3:okhttp:4.9.2'
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.0'
+}
+
+checkstyle {
+    toolVersion '9.1'
+}
+
+sonarqube {
+  properties {
+    property "sonar.projectKey", "gojoGS_SZFM-project"
+    property "sonar.organization", "gojogs"
+    property "sonar.host.url", "https://sonarcloud.io"
+  }
 }
 
 
