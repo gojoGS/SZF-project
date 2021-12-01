@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="app.gui.controller.LoginController">
+    <children>
+        <Label fx:id="mainLabel" alignment="TOP_LEFT" contentDisplay="TOP" text="Who Wants To Be A Millionaire?">
+            <VBox.margin>
+                <Insets bottom="35.0"/>
+            </VBox.margin>
+        </Label>
+        <Label fx:id="usernameLabel" text="Username"/>
+        <TextField fx:id="usernameTextField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                   minWidth="-Infinity" prefWidth="300.0"/>
+        <Label fx:id="passwordLabel" text="Password"/>
+        <TextField fx:id="passwordTextField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                   minWidth="-Infinity" prefHeight="26.0" prefWidth="300.0"/>
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+            <children>
+                <Button fx:id="logInButton" mnemonicParsing="false" onAction="#onLogin" text="Log in"/>
+                <Button fx:id="registerButton" mnemonicParsing="false" onAction="#onRegister" text="Register"/>
+            </children>
+        </HBox>
+    </children>
+</VBox>
