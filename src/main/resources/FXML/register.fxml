@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="app.gui.controller.RegistrationController">
+    <children>
+        <Label fx:id="mainLabel" text="Registration"/>
+        <Label fx:id="usernameLabel" text="Username"/>
+        <TextField fx:id="usernameTextField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                   minWidth="-Infinity" prefWidth="300.0"/>
+        <Label fx:id="passwordLabel" text="Password"/>
+        <TextField fx:id="passwordTextField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                   minWidth="-Infinity" prefHeight="26.0" prefWidth="300.0"/>
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+            <children>
+                <Button onAction="#onRegister" fx:id="registerButton" mnemonicParsing="false" text="Register"/>
+                <Button onAction="#onLogin" fx:id="logInButton" mnemonicParsing="false" text="Log in"/>
+            </children>
+        </HBox>
+    </children>
+</VBox>
