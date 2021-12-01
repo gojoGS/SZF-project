@@ -29,10 +29,9 @@ public class MainMenuController {
         var results = service.get(10);
 
         if (results.isEmpty()) {
-            Logger.error("Leaderboard service server unavailable");
-            new Alert(Alert.AlertType.ERROR, "Server Unavailable").showAndWait();
+            JavaFxUtil.load(JavaFxUtil.getStageOfEvent(actionEvent), "FXML/leaderboard.fxml", new LeaderBoardView(new ArrayList<>()));
         } else {
-//            JavaFxUtil.load(JavaFxUtil.getStageOfEvent(actionEvent), "FXML/leaderboard.fxml", new LeaderBoardView(results));
+            JavaFxUtil.load(JavaFxUtil.getStageOfEvent(actionEvent), "FXML/leaderboard.fxml", new LeaderBoardView(results));
         }
     }
 
