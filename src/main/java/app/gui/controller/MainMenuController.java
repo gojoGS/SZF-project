@@ -1,6 +1,7 @@
 package app.gui.controller;
 
 import app.App;
+import app.gui.view.LeaderBoardView;
 import app.service.LeaderBoardGetService;
 import app.service.WebLeaderBoardGetService;
 import app.util.JavaFxUtil;
@@ -8,6 +9,8 @@ import javafx.event.ActionEvent;
 import javafx.scene.Node;
 import javafx.scene.control.Alert;
 import org.tinylog.Logger;
+
+import java.util.ArrayList;
 
 public class MainMenuController {
     LeaderBoardGetService service = new WebLeaderBoardGetService("leaderboard");
@@ -37,10 +40,9 @@ public class MainMenuController {
         var results = service.get(App.getUsername(), 10);
 
         if (results.isEmpty()) {
-            Logger.error("Leaderboard service server unavailable");
-            new Alert(Alert.AlertType.ERROR, "Server Unavailable").showAndWait();
+            JavaFxUtil.load(JavaFxUtil.getStageOfEvent(actionEvent), "FXML/leaderboard.fxml", new LeaderBoardView(new ArrayList<>()));
         } else {
-//            JavaFxUtil.load(JavaFxUtil.getStageOfEvent(actionEvent), "FXML/leaderboard.fxml", new LeaderBoardView(results));
+            JavaFxUtil.load(JavaFxUtil.getStageOfEvent(actionEvent), "FXML/leaderboard.fxml", new LeaderBoardView(results));
         }
     }
 
