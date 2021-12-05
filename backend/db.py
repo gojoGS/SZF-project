@@ -54,7 +54,9 @@ class CustomDbConnection(DbConnection):
         self.execute(
             'SELECT password_hash FROM userdata WHERE username = ?', (username,))
 
-        if result := self.fetch_one():
+        result = self.fetch_one()
+
+        if result is not None:
             return result[0]
         else:
             return None
