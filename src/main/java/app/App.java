@@ -21,7 +21,7 @@ public class App extends Application {
     String username;
 
     private static @Getter
-    final String backendBaseUrl = "http://127.0.0.1:8000";
+    final String backendBaseUrl = "http://ec2-18-116-65-236.us-east-2.compute.amazonaws.com:8001";
 
     private static BooleanProperty isDarkThemeProperty = new SimpleBooleanProperty(false);
 
