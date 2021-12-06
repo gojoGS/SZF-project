@@ -73,26 +73,26 @@ public class GameController implements Initializable {
     }
 
     private void onPhone(ActionEvent actionEvent) {
-//        new Alert(Alert.AlertType.INFORMATION, String.format("I think it's %s", gameState.getCurrentQuestion().get().getCorrectId())).showAndWait();
-//        gameState.removeHelp(Help.PHONE);
+        new Alert(Alert.AlertType.INFORMATION, String.format("I think it's %s", gameState.getCurrentQuestion().get().getCorrectId())).showAndWait();
+        gameState.removeHelp(Help.PHONE);
     }
 
     private void onHalf(ActionEvent actionEvent) {
-//        AnswerId other = AnswerId.A;
-//
-//        AnswerId correct = gameState.getCurrentQuestion().get().getCorrectId();
-//
-//        if (other.equals(correct)) {
-//            other = AnswerId.B;
-//        }
-//
-//        new Alert(Alert.AlertType.INFORMATION, String.format("%s and %s", correct, other)).showAndWait();
-//        gameState.removeHelp(Help.HALF);
+        AnswerId other = AnswerId.A;
+
+        AnswerId correct = gameState.getCurrentQuestion().get().getCorrectId();
+
+        if (other.equals(correct)) {
+            other = AnswerId.B;
+        }
+
+        new Alert(Alert.AlertType.INFORMATION, String.format("%s and %s", correct, other)).showAndWait();
+        gameState.removeHelp(Help.HALF);
     }
 
     private void onAudience(ActionEvent actionEvent) {
-//        answerGrid.toggleFrequency();
-//        gameState.removeHelp(Help.AUDIENCE);
+        answerGrid.toggleFrequency();
+        gameState.removeHelp(Help.AUDIENCE);
     }
 
     private void onAnswerChoice(ActionEvent actionEvent) {
