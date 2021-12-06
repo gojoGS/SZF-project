@@ -85,14 +85,14 @@ public class NewGameDialog extends Dialog<GameState> {
 
         return switch (lengthChoice.getValue()) {
             case "Classic (15)" -> Optional.of(15);
-            case "Végtelen" -> Optional.of(Integer.MAX_VALUE);
+            case "Végtelen" -> Optional.of(Integer.MAX_VALUE - 1);
             case "Custom" -> getGameLengthInput();
             default -> Optional.empty();
         };
     }
 
     private Optional<Theme> getTheme() {
-        return Optional.of(themeChoice.getValue());
+        return Optional.ofNullable(themeChoice.getValue());
     }
 
     private GameState resultConverter(ButtonType buttonType) {

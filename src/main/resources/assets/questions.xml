@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <questions>
     <question>
-        <question>asd</question>
+        <question>Who is Iskandar?</question>
         <answerMapping>
             <entry>
                 <key>A</key>
-                <value>ansA</value>
+                <value>Alexander the Great</value>
             </entry>
             <entry>
                 <key>C</key>
-                <value>ansC</value>
+                <value>Lakatos Ali</value>
             </entry>
             <entry>
                 <key>D</key>
-                <value>ansD</value>
+                <value>Ali Lakatos</value>
             </entry>
             <entry>
                 <key>B</key>
-                <value>ansB</value>
+                <value>Seleucos Nikator</value>
             </entry>
         </answerMapping>
         <frequencyMapping>
@@ -38,27 +38,27 @@
                 <value>0.25</value>
             </entry>
         </frequencyMapping>
-        <correctId>D</correctId>
+        <correctId>A</correctId>
         <theme>HISTORY</theme>
     </question>
     <question>
-        <question>ahsnoiasoiaj</question>
+        <question>In what sport Cassius Clay excelled?</question>
         <answerMapping>
             <entry>
                 <key>A</key>
-                <value>ansA</value>
+                <value>Boxing</value>
             </entry>
             <entry>
                 <key>C</key>
-                <value>ansC</value>
+                <value>Swimming</value>
             </entry>
             <entry>
                 <key>D</key>
-                <value>ansD</value>
+                <value>Formula 1</value>
             </entry>
             <entry>
                 <key>B</key>
-                <value>ansB</value>
+                <value>League of Legends</value>
             </entry>
         </answerMapping>
         <frequencyMapping>
@@ -79,27 +79,27 @@
                 <value>0.25</value>
             </entry>
         </frequencyMapping>
-        <correctId>D</correctId>
+        <correctId>A</correctId>
         <theme>SPORTS</theme>
     </question>
     <question>
-        <question>aasdasdassasd</question>
+        <question>What is the Ludolf-constant?</question>
         <answerMapping>
             <entry>
                 <key>A</key>
-                <value>ansA</value>
+                <value>3.1415</value>
             </entry>
             <entry>
                 <key>C</key>
-                <value>ansC</value>
+                <value>6x10^23</value>
             </entry>
             <entry>
                 <key>D</key>
-                <value>ansD</value>
+                <value>1.41</value>
             </entry>
             <entry>
                 <key>B</key>
-                <value>ansB</value>
+                <value>727</value>
             </entry>
         </answerMapping>
         <frequencyMapping>
@@ -120,27 +120,27 @@
                 <value>0.25</value>
             </entry>
         </frequencyMapping>
-        <correctId>D</correctId>
+        <correctId>A</correctId>
         <theme>SCIENCE</theme>
     </question>
     <question>
-        <question>aasdasodjasosd</question>
+        <question>In what famous role Béla Lugosi starred?</question>
         <answerMapping>
             <entry>
                 <key>A</key>
-                <value>ansA</value>
+                <value>Dracula</value>
             </entry>
             <entry>
                 <key>C</key>
-                <value>ansC</value>
+                <value>James Bond</value>
             </entry>
             <entry>
                 <key>D</key>
-                <value>ansD</value>
+                <value>Dobrev Klára</value>
             </entry>
             <entry>
                 <key>B</key>
-                <value>ansB</value>
+                <value>Zimmer Feri</value>
             </entry>
         </answerMapping>
         <frequencyMapping>
@@ -161,27 +161,27 @@
                 <value>0.25</value>
             </entry>
         </frequencyMapping>
-        <correctId>D</correctId>
+        <correctId>A</correctId>
         <theme>MOVIES</theme>
     </question>
     <question>
-        <question>assdasd</question>
+        <question>What was the capital of the Soviet Union?</question>
         <answerMapping>
             <entry>
                 <key>A</key>
-                <value>ansA</value>
+                <value>Moscow</value>
             </entry>
             <entry>
                 <key>C</key>
-                <value>ansC</value>
+                <value>Leningrad</value>
             </entry>
             <entry>
                 <key>D</key>
-                <value>ansD</value>
+                <value>Stalingrad</value>
             </entry>
             <entry>
                 <key>B</key>
-                <value>ansB</value>
+                <value>Mátészalka</value>
             </entry>
         </answerMapping>
         <frequencyMapping>
@@ -202,27 +202,27 @@
                 <value>0.25</value>
             </entry>
         </frequencyMapping>
-        <correctId>D</correctId>
+        <correctId>A</correctId>
         <theme>HISTORY</theme>
     </question>
     <question>
-        <question>asd</question>
+        <question>In what car Ken Miles participated in the 1966 Le Mans?</question>
         <answerMapping>
             <entry>
                 <key>A</key>
-                <value>ansA</value>
+                <value>Ford GT40</value>
             </entry>
             <entry>
                 <key>C</key>
-                <value>ansC</value>
+                <value>2001 Honda Civic</value>
             </entry>
             <entry>
                 <key>D</key>
-                <value>ansD</value>
+                <value>Shelby Cobra</value>
             </entry>
             <entry>
                 <key>B</key>
-                <value>ansB</value>
+                <value>Ferrari 330 P3</value>
             </entry>
         </answerMapping>
         <frequencyMapping>
@@ -243,7 +243,89 @@
                 <value>0.25</value>
             </entry>
         </frequencyMapping>
-        <correctId>D</correctId>
+        <correctId>A</correctId>
         <theme>SPORTS</theme>
+    </question>
+    <question>
+        <question>What is the lightest noble gas?</question>
+        <answerMapping>
+            <entry>
+                <key>A</key>
+                <value>Helium</value>
+            </entry>
+            <entry>
+                <key>C</key>
+                <value>Updateion</value>
+            </entry>
+            <entry>
+                <key>D</key>
+                <value>Argon</value>
+            </entry>
+            <entry>
+                <key>B</key>
+                <value>Xenon</value>
+            </entry>
+        </answerMapping>
+        <frequencyMapping>
+            <entry>
+                <key>A</key>
+                <value>0.25</value>
+            </entry>
+            <entry>
+                <key>C</key>
+                <value>0.25</value>
+            </entry>
+            <entry>
+                <key>D</key>
+                <value>0.25</value>
+            </entry>
+            <entry>
+                <key>B</key>
+                <value>0.25</value>
+            </entry>
+        </frequencyMapping>
+        <correctId>A</correctId>
+        <theme>SCIENCE</theme>
+    </question>
+    <question>
+        <question>Who was Joaquin Phoenix's co-star in the movie Her?</question>
+        <answerMapping>
+            <entry>
+                <key>A</key>
+                <value>Scarlett Johannson</value>
+            </entry>
+            <entry>
+                <key>C</key>
+                <value>Charlie Chaplin</value>
+            </entry>
+            <entry>
+                <key>D</key>
+                <value>Leonardo DiCaprio</value>
+            </entry>
+            <entry>
+                <key>B</key>
+                <value>Kate Blanchet</value>
+            </entry>
+        </answerMapping>
+        <frequencyMapping>
+            <entry>
+                <key>A</key>
+                <value>0.25</value>
+            </entry>
+            <entry>
+                <key>C</key>
+                <value>0.25</value>
+            </entry>
+            <entry>
+                <key>D</key>
+                <value>0.25</value>
+            </entry>
+            <entry>
+                <key>B</key>
+                <value>0.25</value>
+            </entry>
+        </frequencyMapping>
+        <correctId>A</correctId>
+        <theme>MOVIES</theme>
     </question>
 </questions>
