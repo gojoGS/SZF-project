@@ -1,5 +1,6 @@
 package app.gui.controller;
 
+import app.App;
 import app.service.*;
 import app.util.JavaFxUtil;
 import javafx.event.ActionEvent;
@@ -54,6 +55,7 @@ public class RegistrationController {
             case USER_ALREADY_EXISTS -> new Alert(Alert.AlertType.ERROR, "User already exists").showAndWait();
             case SUCCESSFUL -> {
                 new Alert(Alert.AlertType.INFORMATION, "Successfull registration").showAndWait();
+                App.setUsername(username);
                 JavaFxUtil.load(JavaFxUtil.getStageOfEvent(actionEvent), "FXML/menu.fxml");
             }
         }

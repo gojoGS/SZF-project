@@ -1,0 +1,80 @@
+.root {
+    -fx-background-color: #282C34;
+}
+
+* {
+    -fx-text-fill: white;
+}
+
+.text-field {
+    -fx-background-color: #3f4552;
+}
+
+.choice-box {
+    -fx-background-color: #3b4354;
+}
+.choice-box .context-menu {
+    -fx-background-color: #3b4354;
+}
+.choice-box .menu-item:focused {
+    -fx-background-color: #5f6c8a;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, #282C34, #5f6c8a);
+    -fx-background-radius: 7px 7px 0px 0px;
+    -fx-background-insets: 0 11px 0 0;
+    -fx-padding: 0 0 5px 0;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #5f6c8a;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: #3b4354;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:even{
+    -fx-background-color: #55627a;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:  linear-gradient(to bottom, #5f6c8a, #516186);
+}
+.table-view .virtual-flow .scroll-bar:horizontal .thumb {
+    -fx-background-color:  linear-gradient(to right, #5f6c8a, #4e5e81);
+}
+
+.button {
+    -fx-background-color: #51596b;
+}
+
+.button:hover {
+    -fx-background-color: #3a3d44;
+}
+
+.answerButton:hover {
+    -fx-background-color: #1a2f5d;
+
+}
+
+.answerButton_selected {
+    -fx-background-color: #e5c07b;
+}
+
+.answerButton_selected:hover {
+    -fx-background-color: #c08821;
+}
+
+.answerButton_right {
+    -fx-background-color: #98c379;
+}
+
+.answerButton_wrong {
+    -fx-background-color: #e06c75;
+}
