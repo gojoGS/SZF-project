@@ -153,9 +153,9 @@ public class GameController implements Initializable {
     }
 
     private void onEnd(Stage nextStage) {
-//        LeaderBoardPostService service = new WebLeaderBoardPostService("leaderboard");
-//        service.post(gameState.getGameResult());
-//
-//        JavaFxUtil.load(nextStage, "FXML/end.fxml");
+        LeaderBoardPostService service = new WebLeaderBoardPostService("leaderboard");
+        service.post(gameState.getGameResult());
+
+        JavaFxUtil.load(nextStage, "FXML/end.fxml");
     }
 }
