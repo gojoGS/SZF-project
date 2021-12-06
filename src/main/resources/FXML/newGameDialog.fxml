@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root type="javafx.scene.control.DialogPane" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+    <content>
+        <GridPane alignment="CENTER">
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" />
+            </rowConstraints>
+            <columnConstraints>
+                <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <children>
+                <ChoiceBox fx:id="themeChoice" prefWidth="150.0" GridPane.columnIndex="1" />
+                <ChoiceBox fx:id="lengthChoice" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <TextField fx:id="lengthInput" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label text="Theme:" />
+            <Label text="Game length:" GridPane.rowIndex="1" />
+            </children>
+        </GridPane>
+    </content>
+    <buttonTypes>
+        <ButtonType fx:constant="OK" />
+        <ButtonType fx:constant="CANCEL" />
+    </buttonTypes>
+</fx:root>

@@ -1,6 +1,7 @@
 package app.gui.controller;
 
 import app.App;
+import app.gui.component.NewGameDialog;
 import app.gui.view.LeaderBoardView;
 import app.service.LeaderBoardGetService;
 import app.service.WebLeaderBoardGetService;
@@ -46,13 +47,13 @@ public class MainMenuController {
     }
 
     public void onNewGame(ActionEvent actionEvent) {
-//        var newGameDialog = new NewGameDialog(((Node) actionEvent.getTarget()).getScene().getWindow());
-//        var result = newGameDialog.showAndWait();
-//
-//        if(result.isEmpty()) {
-//            return;
-//        }
-//
+        var newGameDialog = new NewGameDialog(((Node) actionEvent.getTarget()).getScene().getWindow());
+        var result = newGameDialog.showAndWait();
+
+        if(result.isEmpty()) {
+            return;
+        }
+
 //        JavaFxUtil.load(JavaFxUtil.getStageOfEvent(actionEvent), "FXML/game.fxml", new GameController(result.get()));
     }
 }
