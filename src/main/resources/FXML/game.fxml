@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="vbox" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="30.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0">
+            <children>
+                <Button fx:id="giveUpButton" mnemonicParsing="false" text="Give Up" />
+                <Button fx:id="audienceButton" mnemonicParsing="false" text="Audience" />
+                <Button fx:id="phoneButton" mnemonicParsing="false" text="Phone" />
+                <Button fx:id="halfButton" mnemonicParsing="false" text="Half" />
+            </children>
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </padding>
+         <VBox.margin>
+            <Insets bottom="50.0" />
+         </VBox.margin>
+        </HBox>
+    </children>
+</VBox>
