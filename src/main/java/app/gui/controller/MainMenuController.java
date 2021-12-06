@@ -54,6 +54,6 @@ public class MainMenuController {
             return;
         }
 
-//        JavaFxUtil.load(JavaFxUtil.getStageOfEvent(actionEvent), "FXML/game.fxml", new GameController(result.get()));
+        JavaFxUtil.load(JavaFxUtil.getStageOfEvent(actionEvent), "FXML/game.fxml", new GameController(result.get()));
     }
 }
