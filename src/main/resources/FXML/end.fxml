@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox alignment="CENTER" fx:controller="app.gui.controller.EndController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="25.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button mnemonicParsing="false" onAction="#onLeaderboard" text="Leaderboard" />
+      <Button mnemonicParsing="false" onAction="#onMyGames" text="My games" />
+      <Button mnemonicParsing="false" onAction="#onBackToMenu" text="Back to Menu" />
+   </children>
+</VBox>
